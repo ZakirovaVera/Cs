@@ -7,9 +7,8 @@ if (int.TryParse(inputNumber, out number))
 {
     while (index <= number)
     {
-        Console.Write(index);
+        Console.Write(index + " ");
         index += 2;
-    ;
     }
 }
 else
