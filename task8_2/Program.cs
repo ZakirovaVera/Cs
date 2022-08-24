@@ -5,12 +5,12 @@ int index = 1;
 
 if (int.TryParse(inputNumber, out number))
 {
-    while (index < number)
+    while (index <= number)
     {
         int Четное = index % 2;
         if (Четное == 0)
         {
-            Console.Write(index);
+            Console.Write($"{index} ");
         }
         index += 1;
     }
